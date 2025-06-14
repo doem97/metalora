@@ -32,6 +32,12 @@
 
 Official source code for the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods on long-tailed datasets and introduces a novel meta-learning approach for optimizing their hyperparameters.
 
+<div align="center">
+  <img src="assets/framework.jpg" width="80%" alt="Meta-Learning Framework Overview"/>
+  <br>
+  <em>Overview of our meta-learning framework for optimizing PEFT hyperparameters.</em>
+</div>
+
 ---
 
 ## 🚀 Getting Started
@@ -91,6 +97,12 @@ python main.py --dataset [data_config] --model [model_config] --tuner [tuner_con
 
 Our framework supports a wide range of fine-tuning strategies, from classic full fine-tuning to a rich set of PEFT methods.
 
+<div align="center">
+  <img src="assets/teaser.jpg" width="80%" alt="Teaser Figure"/>
+  <br>
+  <em>The issue of non-monotonic complexity of PEFT hyperparameters.</em>
+</div>
+
 #### Supported PEFT & Backbones
 
 The following PEFT methods can be applied to **CLIP-ViT**, **timm-ViT**, and **SatMAE-ViT** backbones.
@@ -102,6 +114,7 @@ The following PEFT methods can be applied to **CLIP-ViT**, **timm-ViT**, and **S
 | **LoRA-based** | `lora`, `lora_mlp`, `use_flora` | Uses low-rank decomposition for weight updates. `FLoRA` offers fine-grained control. |
 | **Feature Scaling**| `ssf_attn`, `ssf_mlp`, `ssf_ln`| Learns to scale and shift features within the network. |
 | **Subset Tuning** | `bias_tuning`, `ln_tuning`, `mask` | Fine-tunes only a subset of existing parameters (biases, LayerNorms, or a random mask). |
+
 
 #### Execution Modes
 You can control which parts of the model are trained using the `--opts` flag.
