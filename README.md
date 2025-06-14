@@ -11,18 +11,23 @@
   <img src="assets/smu_logo.png" height="40" alt="SMU Logo" />
   &emsp;
   <img src="assets/uiuc_logo.png" height="40" alt="UIUC Logo" />
+  &emsp;
+  <img src="assets/cvpr_logo.png" height="40" alt="CVPR Logo" />
 </p>
 
 
 <p>
   <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html">
-    <img src="https://img.shields.io/badge/paper-CVF-red" alt="Paper">
+    <img src="https://img.shields.io/badge/💡%20Paper-CVF-red?style=flat-square" alt="Paper">
   </a>
   <a href="https://cvpr.thecvf.com/virtual/2025/poster/32721">
-    <img src="https://img.shields.io/badge/poster-CVPR-blue" alt="Poster">
+    <img src="https://img.shields.io/badge/▶%20Poster%20/%20Video-CVPR-blue?style=flat-square" alt="Poster & Video">
   </a>
+  <a href="https://huggingface.co/doem1997/rs_lt/tree/main">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Dataset-yellow?style=flat-square&logo=huggingface" alt="Hugging Face Dataset">
+  </a>
+  <img src="https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=flat-square&logo=pytorch" alt="PyTorch 2.0">
 </p>
-
 </div>
 
 Official source code for the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods on long-tailed datasets and introduces a novel meta-learning approach for optimizing their hyperparameters.
@@ -177,7 +182,5 @@ If you find this work useful for your research, please consider citing our paper
 ---
 
 ## 🙏 Acknowledgment
-
-We thank the authors for the following repositories for code reference:
-[[OLTR]](https://github.com/zhmiao/OpenLongTailRecognition-OLTR), [[Classifier-Balancing]](https://github.com/facebookresearch/classifier-balancing), [[Dassl]](https://github.com/KaiyangZhou/Dassl.pytorch), [[CoOp]](https://github.com/KaiyangZhou/CoOp). Our code is largely re-implement based on [[LIFT]](https://github.com/shijxcs/LIFT), many thanks to LIFT authors' significant contributions!
+We gratefully acknowledge the support from the DSO research grant awarded by DSO National Laboratories, Singapore. We also extend sincere gratitude to Prof. Antoine Ledent (Singapore Management University) for his insightful guidance of PEFT optimization during the rebuttal. We thank the authors for the following repositories for code reference: [[OLTR]](https://github.com/zhmiao/OpenLongTailRecognition-OLTR), [[Classifier-Balancing]](https://github.com/facebookresearch/classifier-balancing), [[Dassl]](https://github.com/KaiyangZhou/Dassl.pytorch), [[CoOp]](https://github.com/KaiyangZhou/CoOp). Our code is largely re-implement based on [[LIFT]](https://github.com/shijxcs/LIFT), many thanks to LIFT authors' significant contributions!
 
