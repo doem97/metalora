@@ -1,0 +1,4 @@
+dataset: "FUSRSv17"
+root: "./data/fusrsv17"
+head_init_folder: "./data/fusrsv17"
+

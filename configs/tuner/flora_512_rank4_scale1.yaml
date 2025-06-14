@@ -1,0 +1,8 @@
+use_flora: True
+
+flora:
+  arch:
+    alpha: 4
+    rank: 4
+  optimizer:
+    default_lr: 2e-2

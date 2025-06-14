@@ -1,0 +1,25 @@
+# DOTA dataset class split configuration
+
+# Few-shot classes (typically with fewer samples)
+few_classes:
+  - helicopter
+  - soccer-ball-field
+  - roundabout
+  - basketball-court
+  - baseball-diamond
+  - ground-track-field
+
+# Medium-shot classes (with moderate number of samples)
+med_classes:
+  - plane
+  - harbor
+  - storage-tank
+  - tennis-court
+  - bridge
+  - swimming-pool
+
+# Many-shot classes (with abundant samples)
+many_classes:
+  - ship
+  - large-vehicle
+  - small-vehicle 

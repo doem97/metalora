@@ -1,0 +1,7 @@
+dataset: "FUSRSv25"
+root: "./data/fusrsv25"
+head_init_folder: "./data/fusrsv25"
+
+meta_inner_steps: 2
+meta_update_freq: 1
+meta_data_ratio: 0.1

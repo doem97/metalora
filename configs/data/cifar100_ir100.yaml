@@ -1,0 +1,7 @@
+dataset: "CIFAR100_IR100"
+root: "./data"
+head_init_folder: "./data/cifar-100-python"
+
+meta_inner_steps: 2
+meta_update_freq: 1
+meta_data_ratio: 0.2

@@ -1,0 +1,7 @@
+dataset: "DOTA"
+root: "./data/dota"
+head_init_folder: "./data/dota"
+
+meta_inner_steps: 3
+meta_update_freq: 1
+meta_data_ratio: 0.2

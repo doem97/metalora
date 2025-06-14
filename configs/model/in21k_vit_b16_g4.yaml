@@ -1,0 +1,34 @@
+# WARN: This config is deprecated, only leave it for reference.
+# Its logic is like: 
+  # 1. the micro-batch-size is directly the single-card batch size
+  # 2. micro_batch_size and batch_size calc accum_step together
+# However, this is deprecated, as this is not feasible for multi-GPU training.
+# In multi-GPU training, we only focus on global batch size, 
+# and per-card batch size is calculated by global batch size divided by the world size
+# and accum_step.
+# The updated version is tagged as "using global batch size".
+
+backbone: "IN21K-ViT-B/16"
+resolution: 224
+
+output_dir: null
+print_freq: 10
+
+seed: 0
+deterministic: True
+num_workers: 8
+prec: "amp"
+
+num_epochs: 10
+# base: bs128 for lr0.01, based on sqrt scaling rule
+batch_size: 64
+accum_step: 1
+lr: 0.02
+weight_decay: 5e-4
+momentum: 0.9
+loss_type: "LA"
+classifier: "CosineClassifier"
+
+init_head: "class_mean"
+tte: False
+expand: 24

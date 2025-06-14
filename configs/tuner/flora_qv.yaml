@@ -1,0 +1,6 @@
+use_flora: True
+
+flora:
+  arch:
+    modules: ["q", "v"]
+    alpha: 1.0

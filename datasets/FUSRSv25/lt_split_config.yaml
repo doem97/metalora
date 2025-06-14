@@ -1,0 +1,15 @@
+# FUSRS dataset class split configuration
+# WARN: Should strictly follow the class sequences in classnames.txt
+
+# Many-shot classes (with >80% samples)
+many_classes:
+  - cargo
+  - fishing
+
+# Medium-shot classes (for FUSRS v2.5, no medium-shot classes)
+med_classes: null
+
+# Few-shot classes (with <20% samples)
+few_classes:
+  - tanker
+  - dredger

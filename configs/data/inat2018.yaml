@@ -1,0 +1,7 @@
+dataset: "iNaturalist2018"
+root: "./data/inat2018"
+head_init_folder: "./data/inat2018"
+
+meta_inner_steps: 3
+meta_update_freq: 1
+meta_data_ratio: 0.2
