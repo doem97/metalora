@@ -32,12 +32,6 @@
 
 Official source code for the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods on long-tailed datasets and introduces a novel meta-learning approach for optimizing their hyperparameters.
 
-<div align="center">
-  <img src="assets/framework.jpg" width="80%" alt="Meta-Learning Framework Overview"/>
-  <br>
-  <em>Overview of our meta-learning framework for optimizing PEFT hyperparameters.</em>
-</div>
-
 ---
 
 ## 🚀 Getting Started
@@ -155,6 +149,12 @@ This is the core contribution of our work: a framework to optimize PEFT hyperpar
 When enabled, the training data is split into a primary training set, a meta-train set, and a meta-validation set. The optimization proceeds in two nested loops:
 1.  **Inner Loop:** The model's standard parameters (e.g., LoRA weights) are trained on batches from the primary training set.
 2.  **Outer Loop:** Periodically, the framework simulates a training step on the meta-train set and evaluates the performance on the meta-validation set. The resulting validation loss is used to update the **meta-parameters** (e.g., the learning rates or ranks within the PEFT modules).
+
+<div align="center">
+  <img src="assets/framework.jpg" width="80%" alt="Meta-Learning Framework Overview"/>
+  <br>
+  <em>Overview of our meta-learning framework for optimizing PEFT hyperparameters.</em>
+</div>
 
 ### How to Use
 Enable meta-training by setting `use_meta=True`.
