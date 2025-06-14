@@ -92,7 +92,7 @@ python main.py --dataset [data_config] --model [model_config] --tuner [tuner_con
 Our framework supports a wide range of fine-tuning strategies, from classic full fine-tuning to a rich set of PEFT methods.
 
 <div align="center">
-  <img src="assets/teaser.jpg" width="80%" alt="Teaser Figure"/>
+  <img src="assets/teaser.jpg" width="90%" alt="Teaser Figure"/>
   <br>
   <em>The issue of non-monotonic complexity of PEFT hyperparameters.</em>
 </div>
@@ -151,7 +151,7 @@ When enabled, the training data is split into a primary training set, a meta-tra
 2.  **Outer Loop:** Periodically, the framework simulates a training step on the meta-train set and evaluates the performance on the meta-validation set. The resulting validation loss is used to update the **meta-parameters** (e.g., the learning rates or ranks within the PEFT modules).
 
 <div align="center">
-  <img src="assets/framework.jpg" width="80%" alt="Meta-Learning Framework Overview"/>
+  <img src="assets/framework.jpg" width="90%" alt="Meta-Learning Framework Overview"/>
   <br>
   <em>Overview of our meta-learning framework for optimizing PEFT hyperparameters.</em>
 </div>
