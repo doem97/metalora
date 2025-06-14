@@ -1,7 +1,7 @@
 <div align="center">
 
-# Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning
-### 🌟 CVPR 2025 Highlight 🌟
+<h2>Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning</h2>
+<h4>🌟 CVPR 2025 Highlight 🌟</h4>
 
 **Zichen Tian¹**, **Yaoyao Liu²**, **Qianru Sun¹**
 
