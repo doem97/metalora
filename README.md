@@ -8,11 +8,11 @@
 *¹Singapore Management University &emsp; ²University of Illinois Urbana-Champaign*
 
 <p>
-  <img src="assets/smu_logo.png" height="40" alt="SMU Logo" />
+  <img src="assets/smu_logo.png" height="50" alt="SMU Logo" />
   &emsp;
-  <img src="assets/uiuc_logo.png" height="40" alt="UIUC Logo" />
+  <img src="assets/uiuc_logo.png" height="50" alt="UIUC Logo" />
   &emsp;
-  <img src="assets/cvpr_logo.png" height="40" alt="CVPR Logo" />
+  <img src="assets/cvpr_logo.png" height="50" alt="CVPR Logo" />
 </p>
 
 
