@@ -30,7 +30,7 @@
 </p>
 </div>
 
-Official source code for the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods on long-tailed datasets and introduces a novel meta-learning approach for optimizing their hyperparameters.
+Official implementation of **MetaLoRA** / **MetaPEFT** from the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods — including LoRA (Low-Rank Adaptation), Adapters, and Prompt Tuning — on long-tailed datasets, and introduces a novel meta-learning approach for optimizing their hyperparameters via bi-level optimization.
 
 ---
 
@@ -196,4 +196,8 @@ If you find this work useful for your research, please consider citing our paper
 
 ## 🙏 Acknowledgment
 We gratefully acknowledge the support from the DSO research grant awarded by DSO National Laboratories, Singapore. We also extend sincere gratitude to Prof. Antoine Ledent (Singapore Management University) for his insightful guidance of PEFT optimization during the rebuttal. We thank the authors for the following repositories for code reference: [[OLTR]](https://github.com/zhmiao/OpenLongTailRecognition-OLTR), [[Classifier-Balancing]](https://github.com/facebookresearch/classifier-balancing), [[Dassl]](https://github.com/KaiyangZhou/Dassl.pytorch), [[CoOp]](https://github.com/KaiyangZhou/CoOp). Our code is largely re-implement based on [[LIFT]](https://github.com/shijxcs/LIFT), many thanks to LIFT authors' significant contributions!
+
+---
+
+<sub><b>Keywords:</b> MetaLoRA, MetaPEFT, meta-learning LoRA, meta-learning PEFT, meta-learning hyperparameters, parameter-efficient fine-tuning, PEFT, LoRA, low-rank adaptation, adapter, prompt tuning, hyperparameter optimization, bi-level optimization, long-tailed recognition, vision transformer, ViT, CLIP, CVPR 2025</sub>
 

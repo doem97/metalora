@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "MetaLoRA: Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"
+message: "If you use this software, please cite our paper."
+type: software
+authors:
+  - given-names: Zichen
+    family-names: Tian
+    affiliation: Singapore Management University
+  - given-names: Yaoyao
+    family-names: Liu
+    affiliation: University of Illinois Urbana-Champaign
+  - given-names: Qianru
+    family-names: Sun
+    affiliation: Singapore Management University
+url: "https://github.com/doem97/metalora"
+repository-code: "https://github.com/doem97/metalora"
+license: Apache-2.0
+preferred-citation:
+  type: conference-paper
+  title: "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"
+  authors:
+    - given-names: Zichen
+      family-names: Tian
+    - given-names: Yaoyao
+      family-names: Liu
+    - given-names: Qianru
+      family-names: Sun
+  collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  year: 2025
+  start: 23037
+  end: 23047
+  url: "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html"
+keywords:
+  - metalora
+  - metapeft
+  - meta-learning lora
+  - meta-learning
+  - parameter-efficient fine-tuning
+  - peft
+  - lora
+  - low-rank adaptation
+  - adapter
+  - prompt tuning
+  - hyperparameter optimization
+  - long-tailed recognition
+  - vision transformer
+  - clip
