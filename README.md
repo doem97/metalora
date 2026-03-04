@@ -2,6 +2,7 @@
 
 <h2>Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning</h2>
 <h4>🌟 CVPR 2025 Highlight 🌟</h4>
+<h4><code>Meta LoRA</code> · <code>Meta PEFT</code> · <code>Meta-Learning + LoRA</code></h4>
 
 **Zichen Tian¹**, **Yaoyao Liu²**, **Qianru Sun¹**
 
@@ -30,7 +31,7 @@
 </p>
 </div>
 
-Official implementation of **MetaLoRA** / **MetaPEFT** from the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). This repository provides a comprehensive framework for exploring various Parameter-Efficient Fine-Tuning (PEFT) methods — including LoRA (Low-Rank Adaptation), Adapters, and Prompt Tuning — on long-tailed datasets, and introduces a novel meta-learning approach for optimizing their hyperparameters via bi-level optimization.
+Official implementation of **Meta LoRA** (also known as **MetaLoRA** / **MetaPEFT**) from the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). We apply meta-learning to LoRA (Low-Rank Adaptation), Adapters, and Prompt Tuning — automatically optimizing their hyperparameters (insertion position, layer depth, scaling factors) via bi-level optimization. A comprehensive framework for meta-learning + LoRA / PEFT on long-tailed and domain-specific datasets.
 
 ---
 
@@ -199,5 +200,5 @@ We gratefully acknowledge the support from the DSO research grant awarded by DSO
 
 ---
 
-<sub><b>Keywords:</b> MetaLoRA, MetaPEFT, meta-learning LoRA, meta-learning PEFT, meta-learning hyperparameters, parameter-efficient fine-tuning, PEFT, LoRA, low-rank adaptation, adapter, prompt tuning, hyperparameter optimization, bi-level optimization, long-tailed recognition, vision transformer, ViT, CLIP, CVPR 2025</sub>
+<sub><b>Keywords:</b> Meta LoRA, MetaLoRA, meta lora, Meta PEFT, MetaPEFT, meta-learning LoRA, meta-learning PEFT, meta learning lora, meta learning peft, meta-learning hyperparameters, meta-learning for fine-tuning, parameter-efficient fine-tuning, PEFT, LoRA, low-rank adaptation, adapter, prompt tuning, hyperparameter optimization, bi-level optimization, long-tailed recognition, vision transformer, ViT, CLIP, remote sensing, CVPR 2025, CVPR 2025 Highlight</sub>
 

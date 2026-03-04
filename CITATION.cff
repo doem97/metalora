@@ -31,8 +31,11 @@ preferred-citation:
   end: 23047
   url: "https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html"
 keywords:
+  - meta lora
   - metalora
+  - meta-lora
   - metapeft
+  - meta peft
   - meta-learning lora
   - meta-learning
   - parameter-efficient fine-tuning
