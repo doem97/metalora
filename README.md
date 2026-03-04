@@ -21,6 +21,9 @@
   <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html">
     <img src="https://img.shields.io/badge/💡%20Paper-CVF-red?style=flat-square" alt="Paper">
   </a>
+  <a href="https://arxiv.org/abs/2603.01759">
+    <img src="https://img.shields.io/badge/📝%20ArXiv-2603.01759-b31b1b?style=flat-square" alt="ArXiv">
+  </a>
   <a href="https://cvpr.thecvf.com/virtual/2025/poster/32721">
     <img src="https://img.shields.io/badge/▶%20Poster%20/%20Video-CVPR-blue?style=flat-square" alt="Poster & Video">
   </a>
