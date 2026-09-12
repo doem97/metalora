@@ -188,7 +188,7 @@ If you find this work useful for your research, please consider citing our paper
 @InProceedings{Tian_2025_CVPR,
     author    = {Tian, Zichen and Liu, Yaoyao and Sun, Qianru},
     title     = {Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning},
-    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2025},
     pages     = {23037-23047}
