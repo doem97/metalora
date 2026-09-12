@@ -5,6 +5,7 @@ type: software
 authors:
   - given-names: Zichen
     family-names: Tian
+    orcid: "https://orcid.org/0009-0004-5007-3352"
     affiliation: Singapore Management University
   - given-names: Yaoyao
     family-names: Liu
@@ -21,6 +22,7 @@ preferred-citation:
   authors:
     - given-names: Zichen
       family-names: Tian
+      orcid: "https://orcid.org/0009-0004-5007-3352"
     - given-names: Yaoyao
       family-names: Liu
     - given-names: Qianru
