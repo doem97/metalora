@@ -18,6 +18,9 @@
 
 
 <p>
+  <a href="https://www.doem1997.com/metapeft/">
+    <img src="https://img.shields.io/badge/Project_Page-doem1997.com-0f5fb3" alt="Project Page">
+  </a>
   <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html">
     <img src="https://img.shields.io/badge/💡%20Paper-CVF-red?style=flat-square" alt="Paper">
   </a>
@@ -33,6 +36,8 @@
   <img src="https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=flat-square&logo=pytorch" alt="PyTorch 2.0">
 </p>
 </div>
+
+Project page with PDF, BibTeX and results: https://www.doem1997.com/metapeft/
 
 Official implementation of **Meta LoRA** (also known as **MetaLoRA** / **MetaPEFT**) from the paper **"Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning"** (CVPR 2025 Highlight). We apply meta-learning to LoRA (Low-Rank Adaptation), Adapters, and Prompt Tuning — automatically optimizing their hyperparameters (insertion position, layer depth, scaling factors) via bi-level optimization. A comprehensive framework for meta-learning + LoRA / PEFT on long-tailed and domain-specific datasets.
 
