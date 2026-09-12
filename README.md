@@ -19,7 +19,7 @@
 
 <p>
   <a href="https://www.doem1997.com/metapeft/">
-    <img src="https://img.shields.io/badge/Project_Page-doem1997.com-0f5fb3" alt="Project Page">
+    <img src="https://img.shields.io/badge/Project_Page-doem1997.com-0f5fb3?style=flat-square" alt="Project Page">
   </a>
   <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Tian_Meta-Learning_Hyperparameters_for_Parameter_Efficient_Fine-Tuning_CVPR_2025_paper.html">
     <img src="https://img.shields.io/badge/💡%20Paper-CVF-red?style=flat-square" alt="Paper">
